@@ -1,0 +1,57 @@
+.card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.item {
+    border: 1px solid black;
+    border-radius: .5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.viewDetail, .paragraphStart, .paragraphEnd {
+    background-color: #b9b9b9;
+    width: 100%;
+    text-align: center;
+    padding: .5rem 0;
+}
+
+.paragraphEnd {
+    border-radius: 0 0 .5rem .5rem ;
+    height: 15%;
+}
+.paragraphStart {
+    border-radius: .5rem .5rem 0 0;
+    height: 15%;
+}
+
+.imgText {
+    margin: .5rem 0;
+    padding: 0 1rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    height: 55%;
+}
+
+.viewDetail {
+    background-color: #dfdfcb;
+    height: 15%;
+    transition: all .3s ease;
+}
+.viewDetail:hover {
+    background-color: #0C9FCB;
+    color: white;
+}
+
+.description {
+    font-size: .95rem;
+}

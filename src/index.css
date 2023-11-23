@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.text-center {text-align: center;}
+.d-flex {display: flex;}
+.w-100 {width: 100%;}
+.m-auto {margin: 0 auto;}
+.my-2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.my-1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+img {
+    width: auto;
+    height: 100px;
+}
+
+.container {
+    width: min(90%, 1200px);
+    margin: 0 auto;
+}
+
+.center-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.font-black {
+    font-weight: bold;
+}
+
+.py-1 {
+    padding: 0 0 .5rem .5rem;
+}
